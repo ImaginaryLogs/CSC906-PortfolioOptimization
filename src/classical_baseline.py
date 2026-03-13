@@ -22,7 +22,7 @@ def compute_moments(prices: pd.DataFrame) -> Tuple[pd.Series, pd.DataFrame]:
     covariance = risk_models.sample_cov(prices)
     return mu, covariance
 
-
+# Loss function: negative Sharpe ratio, which we want to minimize (equivalent to maximizing Sharpe)
 def solve_max_sharpe(prices: pd.DataFrame) -> ClassicalResult:
     mu, covariance = compute_moments(prices)
 

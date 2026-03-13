@@ -1,3 +1,5 @@
+# QUBO Builder: Converts expected returns and covariance into a QUBO model for portfolio optimization.
+
 from __future__ import annotations
 
 from dataclasses import dataclass
