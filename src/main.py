@@ -1,3 +1,5 @@
+# so uh, sa gemini muna ito cuz idk QUBO pa.
+
 from __future__ import annotations
 
 from pathlib import Path

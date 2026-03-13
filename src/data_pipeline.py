@@ -23,6 +23,7 @@ def download_close_prices(
         progress=False,
     )
 
+    # Clean the data to extract just the close prices, and drop any tickers with missing data
     if "Close" not in data:
         raise ValueError("No Close prices returned from yfinance.")
 
