@@ -1,0 +1,12 @@
+# env
+/.venv
+
+# Pycache and other compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data
+data/*.csv
+results/*
+!results/.gitkeep  # (Optional: lets you commit the folder but not the files)

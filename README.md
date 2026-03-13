@@ -38,32 +38,14 @@ What this does:
 - data/: downloaded market data.
 - results/: output artifacts for later experiments.
 
-## 3) Mapping to Your 7-Week Plan
-
-Weeks 1-2:
-- Tune ticker universe in src/config.py.
-- Save baseline performance metrics into results/.
-- Add Efficient Frontier plot for write-up.
-
-Weeks 3-4:
-- Start with 4-5 assets only.
-- Use QUBO from src/qubo_builder.py and convert to Ising/Qiskit Optimization model.
-
-Weeks 5-6:
-- Run QAOA on simulator.
-- Compare Sharpe ratio and risk-return points versus classical baseline.
-
-Week 7:
-- Final LaTeX write-up with probability distributions and hardware noise discussion.
-
-## 4) First Edits You Should Make
+## 3) First Edits You Should Make
 
 In src/config.py:
 - tickers: your chosen 10-20 names.
 - target_cardinality: number of assets allowed in selected basket.
 - risk_aversion and penalty_strength: trade-off tuning parameters.
 
-## 5) Next Implementation Step
+## 4) Next Implementation Step
 
 After this setup runs, add a new file for Qiskit Optimization integration:
 - Convert the QUBO matrix into a QuadraticProgram.
