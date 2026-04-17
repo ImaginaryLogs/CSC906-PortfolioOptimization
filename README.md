@@ -1,5 +1,12 @@
 # qcomp-fin
 
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
+  <img src="https://img.shields.io/badge/Qiskit-%236929C4.svg?style=for-the-badge&logo=Qiskit&logoColor=white" />
+  <img src="https://img.shields.io/badge/CUDA-%2376B900.svg?style=for-the-badge&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" />
+</p>
+
 Quantum Portfolio Optimization (Mean-Variance) starter project.
 
 Goal: build an Efficient Frontier workflow with a classical Markowitz baseline, then encode a binary portfolio-selection version as QUBO for quantum optimization (QAOA or VQE).
